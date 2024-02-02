@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+section:nth-of-type(1){
+    background-image: url(./imagens/logo-lol.jpg);
+    height: 1000px;
+}
+section:nth-of-type(3){
+    background-image: url(./imagens/jinx.jpg);
+    height: 1000px;
+}
+section:nth-of-type(5){
+    background-image: url(./imagens/zoe.jpg);
+    height: 1000px;
+}
+section:nth-of-type(7){
+    background-image: url(./imagens/cait.jpg);
+    height: 1000px;
+}
+section:nth-of-type(9){
+    background-image: url(./imagens/ziggs.jpg);
+    height: 1000px;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    width: 20px;
+    background-image: url(./imagens/L-lol.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
